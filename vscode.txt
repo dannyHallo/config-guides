@@ -1,0 +1,157 @@
+# Vscode
+
+## Settings.json
+
+```json
+{
+    "files.autoGuessEncoding": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[csharp]": {
+        "editor.defaultFormatter": "anysphere.csharp"
+    },
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "code-runner.runInTerminal": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.autorefresh": true,
+    "todohighlight.isEnable": true,
+    "todohighlight.keywords": [
+        "MARK:",
+        "NOTE:",
+        "WIP:"
+    ],
+    "task.problemMatchers.neverPrompt": {
+        "shell": true
+    },
+    "python.condaPath": "D:/Anaconda",
+    "html.format.extraLiners": "",
+    "html.format.contentUnformatted": "",
+    "terminal.integrated.fontFamily": "Cascadia Mono",
+    "editor.fontFamily": "Cascadia Code, Sarasa Mono SC",
+    "terminal.integrated.fontSize": 13,
+    "editor.fontSize": 16,
+    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss19', 'ss20'",
+    "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+    "editor.inlineSuggest.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.inlayHints.enabled": "off",
+    "window.commandCenter": false,
+    "editor.lineNumbers": "relative",
+    "jupyter.askForKernelRestart": false,
+    "workbench.list.mouseWheelScrollSensitivity": 2,
+    "workbench.startupEditor": "none",
+    "editor.minimap.autohide": true,
+    "C_Cpp.autocomplete": "disabled",
+    "C_Cpp.codeFolding": "disabled",
+    "C_Cpp.configurationWarnings": "disabled",
+    "C_Cpp.refactoring.includeHeader": "never",
+    "C_Cpp.enhancedColorization": "disabled",
+    "zenMode.fullScreen": false,
+    "editor.wordWrapColumn": 100,
+    "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+    "git.openRepositoryInParentFolders": "never",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "explorer.confirmPasteNative": false,
+    "zenMode.hideLineNumbers": false,
+    "editor.stickyScroll.enabled": false,
+    "window.confirmSaveUntitledWorkspace": false,
+    "terminal.integrated.stickyScroll.enabled": false,
+    "editor.stickyScroll.scrollWithEditor": false,
+    "workbench.tree.enableStickyScroll": false,
+    "terminal.integrated.scrollback": 10000,
+    "editor.formatOnSave": true,
+    "editor.copyWithSyntaxHighlighting": false,
+    "terminal.integrated.commandsToSkipShell": [
+        "github.copilot.terminal.suggestCommand",
+        "matlab.interrupt"
+    ],
+    "githubPullRequests.pullBranch": "never",
+    "[cmake]": {
+        "editor.defaultFormatter": "josetr.cmake-language-support-vscode"
+    },
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "settingsSync.ignoredSettings": [
+        "-clangd.path",
+        "clang-format.executable"
+    ],
+    "[glsl]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "notebook.lineNumbers": "on",
+    "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
+    "editor.renderWhitespace": "none",
+    "[glslx]": {
+        "editor.formatOnSave": true
+    },
+    "[lua]": {
+        "editor.defaultFormatter": "sumneko.lua"
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "github.copilot.editor.enableAutoCompletions": true,
+    "files.exclude": {
+        "**/.git": false
+    },
+    "editor.cursorBlinking": "solid",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "vscode-neovim.neovimExecutablePaths.win32": "C:\\Program Files\\Neovim\\bin\\nvim.exe",
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "{hexdiff}:/**/*.*": "hexEditor.hexedit",
+        "{git,gitlens}:/**/*.{md,csv,svg}": "default"
+    },
+    "update.mode": "start",
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "files.autoSaveDelay": 200,
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
+    "lldb.suppressUpdateNotifications": true,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "remote.defaultExtensionsIfInstalledLocally": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "GitHub.vscode-pull-request-github"
+    ],
+    "github.copilot.selectedCompletionModel": "",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "cursor.cpp.disabledLanguages": [
+        "plaintext",
+        "scminput"
+    ],
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": true,
+    "cursor.composer.shouldChimeAfterChatFinishes": true,
+    "files.autoSave": "afterDelay",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.mouseWheelScrollSensitivity": 1.5,
+    "editor.fastScrollSensitivity": 4,
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "remote.SSH.remotePlatform": {
+        "js1.blockelite.cn": "linux"
+    }
+}
+```
+
