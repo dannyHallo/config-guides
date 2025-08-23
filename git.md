@@ -40,3 +40,16 @@ git config --global alias.aa "add ."
 ```bash
 git config --list | grep "^alias\."
 ```
+
+## 6. ssh setup
+
+Paste this in $HOME/.ssh/config
+
+···bash
+Host github.com
+  HostName ssh.github.com
+  User git
+  Port 443
+  IdentityFile C:/Users/user_name/.ssh/id_ed25519
+  IdentitiesOnly yes
+```
