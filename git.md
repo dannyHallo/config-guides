@@ -28,11 +28,9 @@ git config --global --unset https.proxy
 你可以为常用的 Git 命令创建简短的别名（alias），比如：
 
 ```bash
-# git cm => git commit -m
 git config --global alias.cm "commit -m"
-
-# git aa => git add .
-git config --global alias.aa "add ."
+git config --global alias.aa "add -A"
+git config --global alias.ss "status -sb"
 ```
 
 ## 5. 查看所有已配置的 Alias
