@@ -20,6 +20,7 @@
   "editor.stickyScroll.enabled": true,
   "terminal.integrated.stickyScroll.enabled": true,
   "terminal.integrated.scrollback": 10000,
+  "notebook.lineNumbers": "on",
 
   // autosave
   "files.autoSave": "onWindowChange",
@@ -36,8 +37,9 @@
   "git.confirmSync": false,
   "git.autofetch": true,
   "git.autorefresh": true,
+  "githubPullRequests.pullBranch": "never",
 
-  // todo highlight
+  // todo highlighting
   "todohighlight.isEnable": true,
   "todohighlight.keywords": ["MARK:", "NOTE:", "WIP:"],
 
@@ -62,7 +64,27 @@
     }
   },
 
+  // remotes
+  "remote.SSH.remotePlatform": {
+    "js1.blockelite.cn": "linux"
+  },
+  "remote.defaultExtensionsIfInstalledLocally": [
+    "GitHub.copilot",
+    "GitHub.copilot-chat",
+    "GitHub.vscode-pull-request-github"
+  ],
+
+  // copy & paste
+  "editor.copyWithSyntaxHighlighting": false,
+  "explorer.confirmPasteNative": false,
+
+  // llm
+  "terminal.integrated.commandsToSkipShell": [
+    "github.copilot.terminal.suggestCommand"
+  ],
+
   // formatting
+  "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[python]": {
     "editor.formatOnType": true,
@@ -79,52 +101,10 @@
   },
   "[glsl]": {
     "editor.defaultFormatter": "xaver.clang-format"
-  },
-
-  // remotes
-  "remote.SSH.remotePlatform": {
-    "js1.blockelite.cn": "linux"
-  },
-  "remote.defaultExtensionsIfInstalledLocally": [
-    "GitHub.copilot",
-    "GitHub.copilot-chat",
-    "GitHub.vscode-pull-request-github"
-  ],
-
-  // uncategorized
-  "task.problemMatchers.neverPrompt": {
-    "shell": true
-  },
-  "editor.formatOnSave": true,
-  "editor.copyWithSyntaxHighlighting": false,
-  "workbench.list.mouseWheelScrollSensitivity": 2,
-  "workbench.startupEditor": "none",
-  "git.openRepositoryInParentFolders": "never",
-  "explorer.confirmPasteNative": false,
-  "window.confirmSaveUntitledWorkspace": false,
-
-  "terminal.integrated.commandsToSkipShell": [
-    "github.copilot.terminal.suggestCommand",
-    "matlab.interrupt"
-  ],
-  "githubPullRequests.pullBranch": "never",
-
-  "notebook.lineNumbers": "on",
-  "editor.renderWhitespace": "none",
-
-  "terminal.integrated.defaultProfile.windows": "Command Prompt",
-
-  "workbench.editorAssociations": {
-    "*.copilotmd": "vscode.markdown.preview.editor",
-    "{hexdiff}:/**/*.*": "hexEditor.hexedit",
-    "{git,gitlens}:/**/*.{md,csv,svg}": "default"
-  },
-  "update.mode": "start",
-
-  "terminal.integrated.enableMultiLinePasteWarning": "never"
+  }
 
   // unused
-  // unused cpp settings
+  // - unused cpp settings
   // "C_Cpp.intelliSenseEngine": "disabled",
   // "C_Cpp.autocomplete": "disabled",
   // "C_Cpp.codeFolding": "disabled",
@@ -133,4 +113,12 @@
   // "C_Cpp.enhancedColorization": "disabled",
   // "settingsSync.ignoredSettings": ["-clangd.path", "clang-format.executable"],
   // "lldb.suppressUpdateNotifications": true,
+  // - commented out to give a test
+  // "window.confirmSaveUntitledWorkspace": false,
+  // "terminal.integrated.defaultProfile.windows": "Command Prompt"
+  // "workbench.editorAssociations": {
+  //   "*.copilotmd": "vscode.markdown.preview.editor",
+  //   "{hexdiff}:/**/*.*": "hexEditor.hexedit",
+  //   "{git,gitlens}:/**/*.{md,csv,svg}": "default"
+  // },
 }
