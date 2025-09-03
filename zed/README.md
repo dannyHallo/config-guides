@@ -1,3 +1,17 @@
+# Zed Configuration Guide
+
+## Setting Up Zed
+
+Zed uses REST API from Github to fetch for latest updates of the extensions. But if you are not authenticated with your Github account, you will likely to hit the rate limit of the API. To avoid this, you can use Github CLI to authenticate yourself.
+
+See: <https://docs.github.com/en/rest/using-the-rest-api/getting-started-with-the-rest-api?apiVersion=2022-11-28#rate-limiting%5C>
+
+```sh
+brew install gh
+gh auth login
+```
+
+```sh
 // Zed settings
 //
 // For information on how to configure Zed, see the Zed
@@ -85,3 +99,4 @@
     }
   }
 }
+```
