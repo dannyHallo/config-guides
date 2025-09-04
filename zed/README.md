@@ -11,6 +11,10 @@ brew install gh
 gh auth login
 ```
 
+Alternativally, you can config the GITHUB_TOKEN environment variable with a personal access token from Github.
+
+After config, restart Zed completely to take effect.
+
 ```sh
 // Zed settings
 //
