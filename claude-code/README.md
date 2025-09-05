@@ -1,0 +1,24 @@
+# Claude Code Setup Guide
+
+## Installation
+
+```sh
+nvm install 22
+nvm use 22
+```
+
+```sh
+npm install -g @anthropic-ai/claude-code
+```
+
+## Configuring Claude Code For Kimi K2
+
+This repo is a comprehensive guide on how to configure Claude Code for Kimi K2: <https://github.com/LLM-Red-Team/kimi-cc>
+
+## Terminal Setup
+
+Open claude code, use this command to setup terminal to allow for shift-enter to insert a new line in terminal.
+
+```sh
+/terminal-setup
+```
