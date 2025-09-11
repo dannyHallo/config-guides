@@ -1,9 +1,8 @@
 {
   // appearance
-  "editor.scrollBeyondLastLine": false,
   "editor.cursorSurroundingLines": 5,
   "editor.minimap.enabled": true,
-  "editor.minimap.autohide": false,
+  "editor.minimap.autohide": "scroll",
   "editor.scrollbar.verticalScrollbarSize": 0,
   "editor.scrollbar.horizontalScrollbarSize": 0,
   "editor.cursorBlinking": "solid",
@@ -23,7 +22,7 @@
   "notebook.lineNumbers": "on",
 
   // autosave
-  "files.autoSave": "onWindowChange",
+  "files.autoSave": "onFocusChange",
 
   // permission
   "security.workspace.trust.untrustedFiles": "open",
@@ -55,6 +54,7 @@
   "cursor.composer.shouldChimeAfterChatFinishes": true,
 
   // spelling check
+  "cSpell.minWordLength": 5,
   "cSpell.customDictionaries": {
     "my-custom-dict": {
       "name": "bytedev",
@@ -86,10 +86,6 @@
   // formatting
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[python]": {
-    "editor.formatOnType": true,
-    "editor.defaultFormatter": "ms-python.black-formatter"
-  },
   "[cpp]": {
     "editor.defaultFormatter": "xaver.clang-format"
   },
@@ -101,7 +97,11 @@
   },
   "[glsl]": {
     "editor.defaultFormatter": "xaver.clang-format"
-  }
+  },
+  "clangd.detectExtensionConflicts": false,
+  "window.commandCenter": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.startupEditor": "none"
 
   // unused
   // - unused cpp settings
