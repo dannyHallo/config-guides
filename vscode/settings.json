@@ -6,7 +6,7 @@
   "editor.scrollbar.verticalScrollbarSize": 0,
   "editor.scrollbar.horizontalScrollbarSize": 0,
   "editor.cursorBlinking": "solid",
-  "workbench.colorTheme": "Gruvbox Dark Medium",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
   "terminal.integrated.fontFamily": "Source Code Pro",
   "terminal.integrated.fontSize": 14,
   "editor.fontFamily": "Source Code Pro",
@@ -20,6 +20,7 @@
   "terminal.integrated.stickyScroll.enabled": true,
   "terminal.integrated.scrollback": 10000,
   "notebook.lineNumbers": "on",
+  "editor.accessibilitySupport": "off",
 
   // autosave
   "files.autoSave": "onFocusChange",
@@ -101,7 +102,11 @@
   "clangd.detectExtensionConflicts": false,
   "window.commandCenter": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "jupyter.askForKernelRestart": false
 
   // unused
   // - unused cpp settings
