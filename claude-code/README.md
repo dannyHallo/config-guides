@@ -11,6 +11,13 @@ nvm use 22
 npm install -g @anthropic-ai/claude-code
 ```
 
+## Remove old version
+
+```sh
+rm -rf ~/.nvm/versions/node/v22.18.0/lib/node_modules/@anthropic-ai/claude-code
+rm -rf ~/.nvm/versions/node/v22.18.0/lib/node_modules/@anthropic-ai/.claude-code-*
+```
+
 ## Configuring Claude Code For Kimi K2
 
 This repo is a comprehensive guide on how to configure Claude Code for Kimi K2: <https://github.com/LLM-Red-Team/kimi-cc>
