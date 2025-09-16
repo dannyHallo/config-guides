@@ -1,12 +1,15 @@
 {
+  // unstable settings
+  "editor.minimap.autohide": true,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+
   // appearance
   "editor.cursorSurroundingLines": 5,
   "editor.minimap.enabled": true,
-  "editor.minimap.autohide": "scroll",
   "editor.scrollbar.verticalScrollbarSize": 0,
   "editor.scrollbar.horizontalScrollbarSize": 0,
   "editor.cursorBlinking": "solid",
-  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "workbench.colorTheme": "Gruvbox Dark Medium",
   "terminal.integrated.fontFamily": "Source Code Pro",
   "terminal.integrated.fontSize": 14,
   "editor.fontFamily": "Source Code Pro",
@@ -20,7 +23,6 @@
   "terminal.integrated.stickyScroll.enabled": true,
   "terminal.integrated.scrollback": 10000,
   "notebook.lineNumbers": "on",
-  "editor.accessibilitySupport": "off",
 
   // autosave
   "files.autoSave": "onFocusChange",
@@ -46,9 +48,6 @@
   // neovim
   "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
   "vscode-neovim.neovimExecutablePaths.win32": "C:\\Program Files\\Neovim\\bin\\nvim.exe",
-  "extensions.experimental.affinity": {
-    "asvetliakov.vscode-neovim": 1
-  },
 
   // cursor exclusive
   "cursor.cpp.disabledLanguages": ["plaintext", "scminput"],
@@ -101,29 +100,5 @@
   },
   "clangd.detectExtensionConflicts": false,
   "window.commandCenter": false,
-  "workbench.secondarySideBar.defaultVisibility": "hidden",
-  "workbench.startupEditor": "none",
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
-  },
-  "jupyter.askForKernelRestart": false
-
-  // unused
-  // - unused cpp settings
-  // "C_Cpp.intelliSenseEngine": "disabled",
-  // "C_Cpp.autocomplete": "disabled",
-  // "C_Cpp.codeFolding": "disabled",
-  // "C_Cpp.configurationWarnings": "disabled",
-  // "C_Cpp.refactoring.includeHeader": "never",
-  // "C_Cpp.enhancedColorization": "disabled",
-  // "settingsSync.ignoredSettings": ["-clangd.path", "clang-format.executable"],
-  // "lldb.suppressUpdateNotifications": true,
-  // - commented out to give a test
-  // "window.confirmSaveUntitledWorkspace": false,
-  // "terminal.integrated.defaultProfile.windows": "Command Prompt"
-  // "workbench.editorAssociations": {
-  //   "*.copilotmd": "vscode.markdown.preview.editor",
-  //   "{hexdiff}:/**/*.*": "hexEditor.hexedit",
-  //   "{git,gitlens}:/**/*.{md,csv,svg}": "default"
-  // },
+  "workbench.startupEditor": "none"
 }
