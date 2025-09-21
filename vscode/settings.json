@@ -86,6 +86,10 @@
     "github.copilot.terminal.suggestCommand"
   ],
 
+  // terminal
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+
   // formatting
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
