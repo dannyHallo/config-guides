@@ -22,6 +22,24 @@ rm -rf ~/.nvm/versions/node/v22.18.0/lib/node_modules/@anthropic-ai/.claude-code
 
 This repo is a comprehensive guide on how to configure Claude Code for Kimi K2: <https://github.com/LLM-Red-Team/kimi-cc>
 
+### Kimi Setup
+
+- MacOS
+
+TODO: correct this
+
+```sh
+vim ~/.zshrc
+add two exports
+```
+
+- Windows
+
+```sh
+setx ANTHROPIC_BASE_URL "https://api.moonshot.cn/anthropic"
+setx ANTHROPIC_AUTH_TOKEN ""
+```
+
 ## Terminal Setup
 
 Open claude code, use this command to setup terminal to allow for shift-enter to insert a new line in terminal.
