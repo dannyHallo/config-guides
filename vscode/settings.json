@@ -8,6 +8,7 @@
   "editor.minimap.enabled": true,
   "editor.scrollbar.verticalScrollbarSize": 0,
   "editor.scrollbar.horizontalScrollbarSize": 0,
+  "editor.accessibilitySupport": "off",
   "editor.cursorBlinking": "solid",
   "workbench.colorTheme": "Gruvbox Dark Medium",
   "terminal.integrated.fontFamily": "Source Code Pro",
