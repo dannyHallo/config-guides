@@ -48,6 +48,9 @@
   // neovim
   "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
   "vscode-neovim.neovimExecutablePaths.win32": "C:\\Program Files\\Neovim\\bin\\nvim.exe",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
 
   // cursor exclusive
   "cursor.cpp.disabledLanguages": ["plaintext", "scminput"],
