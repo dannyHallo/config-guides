@@ -1,5 +1,5 @@
 {
-  // unstable settings
+  // unstable
   "editor.minimap.autohide": true,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
 
@@ -23,6 +23,8 @@
   "terminal.integrated.stickyScroll.enabled": true,
   "terminal.integrated.scrollback": 10000,
   "notebook.lineNumbers": "on",
+  "window.commandCenter": false,
+  "workbench.startupEditor": "none",
 
   // autosave
   "files.autoSave": "onFocusChange",
@@ -105,7 +107,9 @@
   "[glsl]": {
     "editor.defaultFormatter": "xaver.clang-format"
   },
-  "clangd.detectExtensionConflicts": false,
-  "window.commandCenter": false,
-  "workbench.startupEditor": "none"
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  }
+
+  // others
 }
