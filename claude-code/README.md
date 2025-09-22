@@ -11,6 +11,12 @@ nvm use 22
 npm install -g @anthropic-ai/claude-code
 ```
 
+Verify
+
+```sh
+claude --version
+```
+
 ## Remove old version
 
 ```sh
@@ -36,7 +42,18 @@ add two exports
 - Windows
 
 ```sh
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+```
+
+- Use Moonshot
+```sh
 setx ANTHROPIC_BASE_URL "https://api.moonshot.cn/anthropic"
+setx ANTHROPIC_AUTH_TOKEN ""
+```
+
+- Use YUNWU
+```sh
+setx ANTHROPIC_BASE_URL "https://yunwu.ai"
 setx ANTHROPIC_AUTH_TOKEN ""
 ```
 
