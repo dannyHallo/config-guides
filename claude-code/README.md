@@ -52,6 +52,9 @@ setx ANTHROPIC_AUTH_TOKEN ""
 ```
 
 - Use YUNWU
+
+<https://yunwu.apifox.cn/doc-7010249#2-%E5%AE%89%E8%A3%85-claude-code>
+
 ```sh
 setx ANTHROPIC_BASE_URL "https://yunwu.ai"
 setx ANTHROPIC_AUTH_TOKEN ""
